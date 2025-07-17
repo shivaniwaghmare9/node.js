@@ -17,15 +17,25 @@
 
 //=========================================FILE SYSTEM MODULE(SHIV.TXT BNAYI FILE SARA ka DATA AA JAYEGA)================================================
 
-const http=require("http")
+// const http=require("http")
+// const fs=require("fs");
+// http.createServer((req,res)=>{
+//     fs.readFile("shiv.txt",(err,data)=>{
+//         if(err) throw err;
+//         res.write(data);
+//         res.end();
+//     })
+// }).listen(7000)
+
+//=====================================FILE SYSTEM MODULE( NYII FILE CREATE KRNA APPEND KA USE KRKE)=================================================
+// isme nyii file create ho jayegi nhii hai to agr hai to usme data append(add) ho jayega our ydii file me dusra data dala to vo data side me append ho jayega
+
 const fs=require("fs");
-http.createServer((req,res)=>{
-    fs.readFile("shiv.txt",(err,data)=>{
-        if(err) throw err;
-        res.write(data);
-        res.end();
-    })
-}).listen(7000)
+fs.appendFile("ram.txt", " hii am shivani",(err)=>{
+    if(err) throw err;
+    console.log("file created!!")
+})
+
 
 
 
