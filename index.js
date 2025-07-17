@@ -27,7 +27,7 @@
 //     })
 // }).listen(7000)
 
-//=====================================FILE SYSTEM MODULE( NYII FILE CREATE KRNA APPEND KA USE KRKE)=================================================
+//=====================================FILE SYSTEM MODULE(APPEND- NYII FILE CREATE KRNA APPEND KA USE KRKE)=================================================
 // isme nyii file create ho jayegi nhii hai to agr hai to usme data append(add) ho jayega our ydii file me dusra data dala to vo data side me append ho jayega
 
 // const fs=require("fs");
@@ -44,14 +44,25 @@
 // })
 
 
-//===========================================FILE SYSTEM MODULE(OPEN-isse bhi nyii file create hoti h lekin file blank(khali) rhti h)============================================
-//isme file to create ho jati h lekin khali rhti h 
+ //===========================================FILE SYSTEM MODULE(OPEN-isse bhi nyii file create hoti h lekin file blank(khali) rhti h)============================================
+ //isme file to create ho jati h lekin khali rhti h 
 
-const fs=require("fs")
- fs.open("pro.pdf","w",(err,file)=>{
-    if(err) throw err;
-     console.log("file created")
-})
+// const fs=require("fs")
+//  fs.open("pro.pdf","w",(err,file)=>{
+//     if(err) throw err;
+//      console.log("file created")
+// })
+
+//===========================================FILE SYSTEM MODULE(WRITEFILE-isse bhi nyii file create hoti h lekin file blank(khali) rhti h)============================================
+//isme file to create ho jati h or data aata lekin ydii data me change kiyaa to phle ka data dusre data se replace ho jata== 
+
+// const fs=require("fs")
+//  fs.writeFile("proj.txt","hii mern stack developer",(err)=>{
+//     if(err) throw err;
+//      console.log("file created")
+// })
+
+
 
 
 
