@@ -6,7 +6,7 @@ const myClass=()=>{
     return "i am mern fs developer"
 }
 
-module.exports{
+module.exports={
     myName,
     myClass
 }
