@@ -80,7 +80,7 @@
 
 //==========================================FILE RENAME(rename-ka use)============================================================================
 const fs=require("fs")
- fs.rename("pro.txt",(err)=>{
+ fs.rename("pro.pdf" ,"red.txt",(err)=>{
     if(err) throw err;
      console.log("file Renamed!!")
 })
