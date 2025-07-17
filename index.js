@@ -30,8 +30,15 @@
 //=====================================FILE SYSTEM MODULE( NYII FILE CREATE KRNA APPEND KA USE KRKE)=================================================
 // isme nyii file create ho jayegi nhii hai to agr hai to usme data append(add) ho jayega our ydii file me dusra data dala to vo data side me append ho jayega
 
+// const fs=require("fs");
+// fs.appendFile("ram.txt", " hii am shivani",(err)=>{
+//     if(err) throw err;
+//     console.log("file created!!")
+// })          
+             
+//==============DATA ME CHNAGE===========================
 const fs=require("fs");
-fs.appendFile("ram.txt", " hii am shivani",(err)=>{
+fs.appendFile("ram.txt", " I AM FROM BETUL",(err)=>{
     if(err) throw err;
     console.log("file created!!")
 })
