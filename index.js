@@ -70,11 +70,19 @@
 // })
 
 
-//==========================================FILE DELETED(unlink-ka use)============================================================================
+// //==========================================FILE DELETED(unlink-ka use)============================================================================
+// const fs=require("fs")
+//  fs.unlink("projj.txt",(err)=>{
+//     if(err) throw err;
+//      console.log("file deleted")
+// })
+
+
+//==========================================FILE RENAME(rename-ka use)============================================================================
 const fs=require("fs")
- fs.unlink("projj.txt",(err)=>{
+ fs.rename("pro.txt",(err)=>{
     if(err) throw err;
-     console.log("file deleted")
+     console.log("file Renamed!!")
 })
 
 
