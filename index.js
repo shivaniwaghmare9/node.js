@@ -62,11 +62,19 @@
 //      console.log("file created")
 // })
 
-//========================DATA CHANGE===================
+// //========================DATA CHANGE===================
+// const fs=require("fs")
+//  fs.writeFile("proj.txt","i am software developer",(err)=>{
+//     if(err) throw err;
+//      console.log("file created")
+// })
+
+
+//==========================================FILE DELETED(unlink-ka use)============================================================================
 const fs=require("fs")
- fs.writeFile("proj.txt","i am software developer",(err)=>{
+ fs.unlink("projj.txt",(err)=>{
     if(err) throw err;
-     console.log("file created")
+     console.log("file deleted")
 })
 
 
