@@ -13,10 +13,10 @@
 
 //==========================================================USE HTML TAG(H1)=================================================================
 const myName=()=>{
-    return "this is our node class"
+    return "<h1>this is our node class</h1>"
 }
 const myClass=()=>{
-    return " i am mern fs developer"
+    return "<h1> i am mern fs developer</h1>"
 }
 
 module.exports={
