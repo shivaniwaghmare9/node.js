@@ -37,10 +37,20 @@
 // })          
              
 //==============DATA ME CHNAGE===========================
-const fs=require("fs");
-fs.appendFile("ram.txt", " I AM FROM BETUL",(err)=>{
+// const fs=require("fs");
+// fs.appendFile("ram.txt", " I AM FROM BETUL",(err)=>{
+//     if(err) throw err;
+//     console.log("file created!!")
+// })
+
+
+//===========================================FILE SYSTEM MODULE(OPEN-isse bhi nyii file create hoti h lekin file blank(khali) rhti h)============================================
+//isme file to create ho jati h lekin khali rhti h 
+
+const fs=require("fs")
+ fs.open("pro.pdf","w",(err,file)=>{
     if(err) throw err;
-    console.log("file created!!")
+     console.log("file created")
 })
 
 
