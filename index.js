@@ -62,7 +62,12 @@
 //      console.log("file created")
 // })
 
-
+//========================DATA CHANGE===================
+const fs=require("fs")
+ fs.writeFile("proj.txt","i am software developer",(err)=>{
+    if(err) throw err;
+     console.log("file created")
+})
 
 
 
