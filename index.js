@@ -79,10 +79,35 @@
 
 
 //==========================================FILE RENAME(rename-ka use)============================================================================
-const fs=require("fs")
- fs.rename("pro.pdf" ,"red.txt",(err)=>{
-    if(err) throw err;
-     console.log("file Renamed!!")
+// const fs=require("fs")
+//  fs.rename("pro.pdf" ,"red.txt",(err)=>{
+//     if(err) throw err;
+//      console.log("file Renamed!!")
+// })
+
+
+//===============================================EXPRESS STATRT HERE=================================================================
+
+
+const express=require("express")
+const app=express();
+app.get("/",(req,res)=>{
+    res.send("<h1>Hello this is my  page</h1>")
+})
+app.get("/home",(req,res)=>{
+    res.send("<h1>Hello this is my home page</h1>")
+})
+app.get("/about",(req,res)=>{
+    res.send("<h1>Hello this is my home page</h1>")
+})
+pap.get("/",(req,res)=>{
+    res.send("<h1>Hello this is my home page</h1>")
+})
+
+
+
+app.listen(3000,()=>{
+    console.log("server running on port 3000")
 })
 
 
