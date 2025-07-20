@@ -113,8 +113,8 @@
 
 const express=require("express");
 const app=express();
-const stuRoutes=require("./routes/students");
-app.use("/students",stuRoutes)
+const stuRoute=require("./routes/stuRoutes");
+app.use("/students",stuRoute)
 
 app.listen(4000,()=>{
    console.log("server runinig on port 4000!!")
