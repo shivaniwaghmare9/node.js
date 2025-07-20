@@ -89,27 +89,27 @@
 //===============================================EXPRESS STATRT HERE=================================================================
 
 
-const express=require("express")
-const app=express();
-app.get("/",(req,res)=>{
-    res.send("<h1>Hello this is my  page</h1>")
-})
-app.get("/home",(req,res)=>{
-    res.send("<h1>Hello this is my home page</h1>")
-})
-app.get("/about",(req,res)=>{
-    res.send("<h1>Hello this is my about page</h1>")
-})
-app.get("/service",(req,res)=>{
-    res.send("<h1>Hello this is my service page</h1>")
-})
+// const express=require("express")
+// const app=express();
+// app.get("/",(req,res)=>{
+//     res.send("<h1>Hello this is my  page</h1>")
+// })
+// app.get("/home",(req,res)=>{
+//     res.send("<h1>Hello this is my home page</h1>")
+// })
+// app.get("/about",(req,res)=>{
+//     res.send("<h1>Hello this is my about page</h1>")
+// })
+// app.get("/service",(req,res)=>{
+//     res.send("<h1>Hello this is my service page</h1>")
+// })
+
+// app.listen(3000,()=>{
+//     console.log("server running on port 3000")
+// })
 
 
-
-app.listen(3000,()=>{
-    console.log("server running on port 3000")
-})
-
+//===================================================ROUTES=============================================================
 
 
 
