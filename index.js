@@ -98,10 +98,10 @@ app.get("/home",(req,res)=>{
     res.send("<h1>Hello this is my home page</h1>")
 })
 app.get("/about",(req,res)=>{
-    res.send("<h1>Hello this is my home page</h1>")
+    res.send("<h1>Hello this is my about page</h1>")
 })
-pap.get("/",(req,res)=>{
-    res.send("<h1>Hello this is my home page</h1>")
+pap.get("/service",(req,res)=>{
+    res.send("<h1>Hello this is my service page</h1>")
 })
 
 
