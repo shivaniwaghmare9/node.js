@@ -100,7 +100,7 @@ app.get("/home",(req,res)=>{
 app.get("/about",(req,res)=>{
     res.send("<h1>Hello this is my about page</h1>")
 })
-pap.get("/service",(req,res)=>{
+app.get("/service",(req,res)=>{
     res.send("<h1>Hello this is my service page</h1>")
 })
 
