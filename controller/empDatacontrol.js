@@ -1,17 +1,19 @@
 
-const name=((req,res)=>{
+const namepage=((req,res)=>{
     res,send("<h1>Welcome to our name page!!!")
 })
-const city=((req,res)=>{
+const citypage=((req,res)=>{
     res,send("<h1>Welcome to our name page!!!")
 })
-const post=((req,res)=>{
+const postpage=((req,res)=>{
     res,send("<h1>Welcome to our name page!!!")
 })
-const salary=((req,res)=>{
+const salarypage=((req,res)=>{
     res,send("<h1>Welcome to our name page!!!")
 })
 
 module.exports={
-
+       namepage,
+       citypage,
+       postpage,salarypage
 }
