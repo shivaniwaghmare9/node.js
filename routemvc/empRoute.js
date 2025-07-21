@@ -1,6 +1,6 @@
 
 const express=require("express");
-const route=express();
+const route=express.Router();
 const empController=require("../controller/empDatacontrol");
 route.get("/name",empController.namepage)
 route.get("/city",empController.citypage)

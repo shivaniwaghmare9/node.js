@@ -15,5 +15,6 @@ const salarypage=((req,res)=>{
 module.exports={
        namepage,
        citypage,
-       postpage,salarypage
+       postpage,
+       salarypage
 }
