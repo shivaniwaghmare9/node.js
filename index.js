@@ -124,13 +124,25 @@
 
 //===========================================================USING CONTROLLER====================================================
 
-const express=require("express");
+// const express=require("express");
+// const app=express();
+// const empRoute=require("./routemvc/empRoute");
+// app.use("/employee",empRoute);
+
+
+
+// app.listen(5000,()=>{
+//    console.log("server is running on port 5000!!!")
+// })
+//===========================================================USING VIEW ENGINE USE====================================================
+
+const express=require("express")
 const app=express();
-const empRoute=require("./routemvc/empRoute");
-app.use("/employee",empRoute);
+const routeEjs=require("./routemvc/RouteEjs");
+app.set("view engine","ejs")
+app.use("/",routeEjs)
 
 
-
-app.listen(5000,()=>{
-   console.log("server is running on port 5000!!!")
+app.listen(3000,()=>{
+   console.log("server is running on port 3000")
 })
